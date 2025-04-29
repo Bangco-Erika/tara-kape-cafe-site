@@ -15,42 +15,42 @@ const menuItems: MenuItem[] = [
   {
     id: "coffee-1",
     name: "Classic Espresso",
-    description: "Our signature espresso with rich flavor and perfect crema",
+    description: "Our signature espresso with rich flavor and perfect crema, brewed with freshly ground beans",
     price: 120,
     image: "/menu-1.jpg"
   },
   {
     id: "coffee-2",
     name: "Caramel Macchiato",
-    description: "Espresso with steamed milk and sweet caramel drizzle",
+    description: "Espresso with steamed milk and sweet caramel drizzle, topped with a delicate milk foam",
     price: 150,
     image: "/menu-2.jpg"
   },
   {
     id: "coffee-3",
-    name: "Mocha Frappuccino",
-    description: "Blended coffee with chocolate, milk, ice and whipped cream",
+    name: "Iced Coffee",
+    description: "Cold brewed coffee poured over ice with a splash of milk and a hint of sweetness",
     price: 180,
     image: "/menu-3.jpg"
   },
   {
     id: "coffee-4",
-    name: "Flat White",
-    description: "Espresso with velvety steamed milk and microfoam",
-    price: 135,
+    name: "Oreo Frappe",
+    description: "Blended coffee with crushed Oreos, milk, and ice topped with whipped cream and cookie crumbles",
+    price: 195,
     image: "/menu-4.jpg"
   },
   {
     id: "coffee-5",
-    name: "Baguio Brew",
-    description: "Local specialty made with mountain-grown arabica beans",
+    name: "Hazelnut Latte",
+    description: "Espresso with steamed milk and rich hazelnut flavor, finished with a light dusting of cinnamon",
     price: 165,
     image: "/menu-5.jpg"
   },
   {
     id: "coffee-6",
-    name: "Barako Latte",
-    description: "Strong Filipino coffee with creamy milk and cinnamon",
+    name: "Barako Americano",
+    description: "Strong Filipino Barako coffee served Americano style with hot water to highlight its bold flavor",
     price: 145,
     image: "/menu-6.jpg"
   }
