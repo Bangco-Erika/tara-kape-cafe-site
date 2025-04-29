@@ -1,13 +1,34 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import React, { useEffect } from 'react';
+import Navbar from '@/components/Navbar';
+import HeroSection from '@/components/HeroSection';
+import AboutSection from '@/components/AboutSection';
+import MenuSection from '@/components/MenuSection';
+import GallerySection from '@/components/GallerySection';
+import ContactSection from '@/components/ContactSection';
+import Footer from '@/components/Footer';
+import ShoppingCart from '@/components/ShoppingCart';
+import { CartProvider } from '@/context/CartContext';
 
 const Index = () => {
+  useEffect(() => {
+    // Set the document title
+    document.title = 'Tara Kape! Coffee Shop';
+  }, []);
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <CartProvider>
+      <div className="min-h-screen bg-white">
+        <Navbar />
+        <HeroSection />
+        <AboutSection />
+        <MenuSection />
+        <GallerySection />
+        <ContactSection />
+        <Footer />
+        <ShoppingCart />
       </div>
-    </div>
+    </CartProvider>
   );
 };
 
